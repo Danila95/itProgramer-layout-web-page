@@ -1,12 +1,15 @@
 extends blocks/common.blocks/common/template.pug
 
 block variables
-	- title="Musicon homepage"
+	- title="itProgrammer"
 
 block content
-	// section(id="first" class="first")
-	// 	include blocks/common.blocks/header/header.pug
-	// 	include blocks/common.blocks/content/content.pug
+	.wrapper
+		include blocks/common.blocks/header/header.pug
+		include blocks/common.blocks/top/top.pug
+		include blocks/common.blocks/main/main.pug
+		include blocks/common.blocks/overview/overview.pug
+		include blocks/common.blocks/contacts/contacts.pug
+		include blocks/common.blocks/faq/faq.pug
 
-	// script(src="js/jquery-3.3.1.min.js")
-	// script(src="js/parallax-mouse.js")
+	script(src="js/jquery-3.3.1.min.js")
