@@ -1,0 +1,20 @@
+div(class="contacts" id="contacts")
+	center
+		h5 Обратная связь (Убрать центер)
+		form(class="contacts__form" id="contacts__form")
+			label(for="name") Имя 
+				span *
+			br
+			input(type="text" placeholder="Введите имя" name="name" id="name")
+			br
+			label(for="email") Ваша почта
+				span *
+			br
+			input(type="email" placeholder="Введите email" name="email" id="email")
+			br
+			label(for="message") Сообщение
+				span *
+			br
+			textarea(placeholder="Введите ваше сообщение" name="message" id="message")
+			br
+			div(id="mess_send" class="btn") Отправить
