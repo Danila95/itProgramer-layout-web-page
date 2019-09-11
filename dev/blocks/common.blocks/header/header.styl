@@ -1,39 +1,34 @@
-.header {
+header {
 	width 100%
 	padding 10px 0.5% 0px 0.5%
 	background transparent
 	float left
 	position fixed
 }
-.header {
-	&__logo {
-		color #fff;
-		cursor pointer;	
-	}
-
+header #header__logo {
+		color #fff
+		cursor pointer
 }
-.header {
-	&__logo span {
+header #header__logo span {
 		font-size 1.7em
 		line-height 45px
 		margin-left 40px
 		font-family 'Suez One', serif
-	}
 }
-.header__about {
+#header__about {
 	text-align center
 	font-size 1em
 	line-height 40px
 	margin-bottom 10px
 }
-.header__about > a {
+#header__about > a {
 	color #fff
 }
-.header__about > a:hover {
+#header__about > a:hover {
 	color #b0b0b0 
 	text-decoration underline
 }
-.header__about > a:not(:last-child) {
+#header__about > a:not(:last-child) {
 	margin-right 7%
 }
 /* Стили для фиксированной шапки */
@@ -42,12 +37,12 @@
 	background-color #fff
 	border-bottom 1px solid silver
 }
-.header .fixed header__logo {
+header.fixed #header__logo {
 	color #343434
 }
-.fixed .header__about a {
+.fixed #header__about a {
 	color #343434
 }
-.fixed .header__about a:hover {
+.fixed #header__about a:hover {
 	color #7c7c7c
 }
